@@ -437,7 +437,7 @@ class DockerApp(QWidget):
 
         num_containers = int(self.line_edit.text())
         image_name = "astra:1.0"
-        script_path_host = "/root/space/scripts/gg.sh"
+        script_path_host = "/root/space/scripts/type1.sh"
         script_path_cont = "/home/poison/"
         command = "/bin/bash"
 
